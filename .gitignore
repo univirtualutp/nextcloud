@@ -1,0 +1,16 @@
+# Configuración y datos sensibles de Nextcloud
+/config/config.php
+/data/
+/nextcloud.log
+
+# Archivos temporales y de caché
+/tmp/
+/cache/
+
+# Archivos del servidor web y otros directorios sensibles
+/.htaccess
+/ocdata
+
+# Otros archivos innecesarios
+*.log
+*.bak
